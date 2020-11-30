@@ -1,0 +1,22 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "dungeons_and_companions:woodsealant"
+    },
+    "1": {
+      "item": "minecraft:oak_log"
+    },
+    "2": {
+      "item": "dungeons_and_companions:woodsealant"
+    }
+  },
+  "result": {
+    "item": "dungeons_and_companions:hardened_wood",
+    "count": 1
+  }
+}

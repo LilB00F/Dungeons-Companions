@@ -1,0 +1,12 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:smoking",
+  "experience": 5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
+  "result": {
+    "item": "dungeons_and_companions:cheese"
+  }
+}

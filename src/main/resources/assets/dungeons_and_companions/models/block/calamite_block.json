@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dungeons_and_companions:blocks/calamite_ore_block",
+    "particle": "dungeons_and_companions:blocks/calamite_ore_block"
+  }
+}

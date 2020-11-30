@@ -1,0 +1,42 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dungeons_and_companions:goldchain"
+    },
+    "1": {
+      "item": "dungeons_and_companions:goldchain"
+    },
+    "2": {
+      "item": "dungeons_and_companions:goldchain"
+    },
+    "3": {
+      "tag": "forge:dyes"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "tag": "forge:dyes"
+    },
+    "6": {
+      "item": "minecraft:smooth_stone"
+    },
+    "7": {
+      "tag": "forge:dyes"
+    },
+    "8": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "dungeons_and_companions:gold_medallion_item",
+    "count": 1
+  }
+}

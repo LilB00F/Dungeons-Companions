@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "diamgreataxetexture"
+      },
+      "name": "default"
+    },
+    "numba2": {
+      "map": {
+        "1": "irongaxetexture"
+      },
+      "name": "numba2"
+    }
+  }
+}

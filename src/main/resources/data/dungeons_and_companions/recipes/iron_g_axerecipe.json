@@ -1,0 +1,24 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "dungeons_and_companions:iron_g_axeblade"
+    },
+    "1": {
+      "item": "dungeons_and_companions:hardened_wood"
+    },
+    "2": {
+      "item": "dungeons_and_companions:shaftitem"
+    }
+  },
+  "result": {
+    "item": "dungeons_and_companions:iron_greataxe",
+    "count": 1
+  }
+}

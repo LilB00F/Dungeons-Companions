@@ -1,0 +1,1888 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CompanionGui",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_ralf_gui"
+    },
+    {
+      "name": "CompanionMale1RightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompanionMale1OnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_male_1_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CompanionFollowPro",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_follow_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompanionRalf",
+      "type": "mob",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_ralf"
+    },
+    {
+      "name": "CompanionStayPro",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_stay_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChatButtonPro",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chat_button_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AxeMedallionItem",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_medallion_item"
+    },
+    {
+      "name": "CreativeCompanionModtab",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_companion_modtab"
+    },
+    {
+      "name": "AxeMedallionItemRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_medallion_item_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompanionRalfItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_ralf_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompanionRalfEntityDies",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_ralf_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompanionRalfThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_ralf_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AxeMedallionItemLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_medallion_item_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Goldchain",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldchain"
+    },
+    {
+      "name": "Medallionrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medallionrecipe"
+    },
+    {
+      "name": "Recipegoldchain",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipegoldchain"
+    },
+    {
+      "name": "Cheese",
+      "type": "food",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheese"
+    },
+    {
+      "name": "Recipecheese",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipecheese"
+    },
+    {
+      "name": "Toast",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toast"
+    },
+    {
+      "name": "Recipetoast",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipetoast"
+    },
+    {
+      "name": "Toastedcheesesteaksandwich",
+      "type": "food",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toastedcheesesteaksandwich"
+    },
+    {
+      "name": "Toastedsandwich",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toastedsandwich"
+    },
+    {
+      "name": "CompanionNolati",
+      "type": "mob",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_nolati"
+    },
+    {
+      "name": "IronGreataxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_greataxe"
+    },
+    {
+      "name": "Diamondgreataxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondgreataxe"
+    },
+    {
+      "name": "Compositebow",
+      "type": "gun",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compositebow"
+    },
+    {
+      "name": "MedallionTPscreen",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medallion_t_pscreen",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CompanionNolatigui",
+      "type": "gui",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_nolatigui"
+    },
+    {
+      "name": "Chattemplate",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chattemplate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondSpear",
+      "type": "gun",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_spear"
+    },
+    {
+      "name": "CompanionShine",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_shine"
+    },
+    {
+      "name": "ShrineGui",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shrine_gui"
+    },
+    {
+      "name": "NotaliSUMMONPro",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "notali_summon_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RalfSUMMONPro",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ralf_summon_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompanionShineOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_shine_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Recipecompanionshrine",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipecompanionshrine"
+    },
+    {
+      "name": "NotaliGUI",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "notali_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronSpear",
+      "type": "gun",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spear"
+    },
+    {
+      "name": "DiamondSpearRangedItemUsed",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_spear_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shaftitem",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shaftitem"
+    },
+    {
+      "name": "DiamGAxeblade",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diam_g_axeblade"
+    },
+    {
+      "name": "DiamGreataxerecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diam_greataxerecipe"
+    },
+    {
+      "name": "DGAxebladerecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dg_axebladerecipe"
+    },
+    {
+      "name": "Shaftrecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shaftrecipe"
+    },
+    {
+      "name": "IronGAxeblade",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_g_axeblade"
+    },
+    {
+      "name": "IronGAxerecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_g_axerecipe"
+    },
+    {
+      "name": "IronSpearhead",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spearhead"
+    },
+    {
+      "name": "DiamSpearhead",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diam_spearhead"
+    },
+    {
+      "name": "Ironspearrecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironspearrecipe"
+    },
+    {
+      "name": "Diamspearrecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamspearrecipe"
+    },
+    {
+      "name": "DirewolfThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "direwolf_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Direwolf",
+      "type": "mob",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "direwolf"
+    },
+    {
+      "name": "Knubs",
+      "type": "mob",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knubs"
+    },
+    {
+      "name": "IronGAxebladerecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_g_axebladerecipe"
+    },
+    {
+      "name": "IronSpearheadrecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spearheadrecipe"
+    },
+    {
+      "name": "DiamNugget",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diam_nugget"
+    },
+    {
+      "name": "Diamnuggetrecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamnuggetrecipe"
+    },
+    {
+      "name": "Nuggettodiamrecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nuggettodiamrecipe"
+    },
+    {
+      "name": "Diamspearheadrecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamspearheadrecipe"
+    },
+    {
+      "name": "Woodsealant",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodsealant"
+    },
+    {
+      "name": "Epoxyrecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epoxyrecipe"
+    },
+    {
+      "name": "SparkBombBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spark_bomb_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SparkBombBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spark_bomb_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SparkBombBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spark_bomb_bullet_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SparkBomb",
+      "type": "gun",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spark_bomb"
+    },
+    {
+      "name": "RangerToken",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranger_token"
+    },
+    {
+      "name": "AxeToken",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_token"
+    },
+    {
+      "name": "JauxiteIngot",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_ingot"
+    },
+    {
+      "name": "JauxiteBlock",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_block"
+    },
+    {
+      "name": "JauxiteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_ore_block_recipe"
+    },
+    {
+      "name": "JauxiteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_block_ore_recipe"
+    },
+    {
+      "name": "Garnet",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "garnet"
+    },
+    {
+      "name": "GarnetBlock",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "garnet_block"
+    },
+    {
+      "name": "GarnetOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "garnet_ore_block_recipe"
+    },
+    {
+      "name": "GarnetBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "garnet_block_ore_recipe"
+    },
+    {
+      "name": "Opal",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal"
+    },
+    {
+      "name": "OpalBlock",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_block"
+    },
+    {
+      "name": "OpalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_ore_block_recipe"
+    },
+    {
+      "name": "OpalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_block_ore_recipe"
+    },
+    {
+      "name": "Onyx",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx"
+    },
+    {
+      "name": "OnyxBlock",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_block"
+    },
+    {
+      "name": "OnyxOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_ore_block_recipe"
+    },
+    {
+      "name": "OnyxBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_block_ore_recipe"
+    },
+    {
+      "name": "DuristeelIngot",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_ingot"
+    },
+    {
+      "name": "DuristeelOre",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_ore"
+    },
+    {
+      "name": "DuristeelBlock",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_block"
+    },
+    {
+      "name": "DuristeelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_ore_block_recipe"
+    },
+    {
+      "name": "DuristeelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_block_ore_recipe"
+    },
+    {
+      "name": "DuristeelOreSmelting",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_ore_smelting"
+    },
+    {
+      "name": "CalamiteIngot",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_ingot"
+    },
+    {
+      "name": "CalamiteBlock",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_block"
+    },
+    {
+      "name": "CalamiteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_ore_block_recipe"
+    },
+    {
+      "name": "CalamiteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_block_ore_recipe"
+    },
+    {
+      "name": "MythrilIngot",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_ingot"
+    },
+    {
+      "name": "MythrilBlock",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_block"
+    },
+    {
+      "name": "MythrilOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_ore_block_recipe"
+    },
+    {
+      "name": "MythrilBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_block_ore_recipe"
+    },
+    {
+      "name": "IronShaft",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_shaft"
+    },
+    {
+      "name": "Ironshaftrecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironshaftrecipe"
+    },
+    {
+      "name": "JauxiteArmor",
+      "type": "armor",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "JauxiteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_armor_helmet_recipe"
+    },
+    {
+      "name": "JauxiteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_armor_body_recipe"
+    },
+    {
+      "name": "JauxiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_armor_leggings_recipe"
+    },
+    {
+      "name": "JauxiteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_armor_boots_recipe"
+    },
+    {
+      "name": "DuristeelArmor",
+      "type": "armor",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DuristeelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_armor_helmet_recipe"
+    },
+    {
+      "name": "DuristeelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_armor_body_recipe"
+    },
+    {
+      "name": "DuristeelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_armor_leggings_recipe"
+    },
+    {
+      "name": "DuristeelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duristeel_armor_boots_recipe"
+    },
+    {
+      "name": "CalamiteArmor",
+      "type": "armor",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CalamiteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_armor_helmet_recipe"
+    },
+    {
+      "name": "CalamiteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_armor_body_recipe"
+    },
+    {
+      "name": "CalamiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_armor_leggings_recipe"
+    },
+    {
+      "name": "CalamiteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_armor_boots_recipe"
+    },
+    {
+      "name": "MythrilArmor",
+      "type": "armor",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MythrilArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor_helmet_recipe"
+    },
+    {
+      "name": "MythrilArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor_body_recipe"
+    },
+    {
+      "name": "MythrilArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor_leggings_recipe"
+    },
+    {
+      "name": "MythrilArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor_boots_recipe"
+    },
+    {
+      "name": "IronSpearRangedItemUsed",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spear_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JauxiteOre",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxite_ore"
+    },
+    {
+      "name": "Jauxiteoresmelt",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jauxiteoresmelt"
+    },
+    {
+      "name": "CalamiteOre",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_ore"
+    },
+    {
+      "name": "CalamiteOresmelt",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calamite_oresmelt"
+    },
+    {
+      "name": "GarnetOre",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "garnet_ore"
+    },
+    {
+      "name": "OpalOre",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_ore"
+    },
+    {
+      "name": "OnyxOre",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyx_ore"
+    },
+    {
+      "name": "Garnetsmeltrecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "garnetsmeltrecipe"
+    },
+    {
+      "name": "Opalsmeltrecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opalsmeltrecipe"
+    },
+    {
+      "name": "Onyxsmeltrecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onyxsmeltrecipe"
+    },
+    {
+      "name": "HardenedWood",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_wood"
+    },
+    {
+      "name": "Hardenedwoodrecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardenedwoodrecipe"
+    },
+    {
+      "name": "CompanionOdarin",
+      "type": "mob",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_odarin"
+    },
+    {
+      "name": "CompanionOdarinGui",
+      "type": "gui",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "companion_odarin_gui"
+    },
+    {
+      "name": "FireStaff",
+      "type": "gun",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_staff"
+    },
+    {
+      "name": "StaffFireballLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "staff_fireball_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StaffFireball",
+      "type": "item",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "staff_fireball"
+    },
+    {
+      "name": "FireStaffWhileBulletFlyingTick",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_staff_while_bullet_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireStaffBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_staff_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MageToken",
+      "type": "item",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mage_token"
+    },
+    {
+      "name": "OdarinSUMMONPro",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odarin_summon_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZoneFireBallBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zone_fire_ball_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireStaffRangedItemUsed",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_staff_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "russianmalevoice",
+      "files": [
+        "es_voice-clip-male-239-sfx-producer"
+      ],
+      "category": "player"
+    },
+    {
+      "name": "piratemale",
+      "files": [
+        "es_voice-clip-male-521-sfx-producer"
+      ],
+      "category": "player"
+    },
+    {
+      "name": "female-hmm-sound",
+      "files": [
+        "zapsplat_zapsplat_unprocessed_voice_female_hmm_001_25017"
+      ],
+      "category": "player"
+    },
+    {
+      "name": "burpsound",
+      "files": [
+        "zapsplat_human_male_man_burp_short_weak_48653"
+      ],
+      "category": "player"
+    },
+    {
+      "name": "oldschool-oof",
+      "files": [
+        "minecraft-oof"
+      ],
+      "category": "player"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.dungeons_and_companions.calamite_armor_leggings": "Calamite Leggings",
+      "block.dungeons_and_companions.opal_ore": "Opal Ore",
+      "block.dungeons_and_companions.garnet_ore": "Garnet Ore",
+      "item.dungeons_and_companions.calamite_armor_chestplate": "Calamite Chestplate",
+      "item.dungeons_and_companions.jauxite_armor_helmet": "Jauxite Helmet",
+      "block.dungeons_and_companions.calamite_ore": "Calamite Ore",
+      "item.dungeons_and_companions.jauxite_armor_leggings": "Jauxite Leggings",
+      "item.dungeons_and_companions.diamond_spear": "Diamond Spear",
+      "item.dungeons_and_companions.companion_odarin_spawn_egg": " Odarin Spawn Egg",
+      "item.dungeons_and_companions.fire_staff": "Fire Staff",
+      "item.dungeons_and_companions.diam_nugget": "Diamond Nugget",
+      "block.dungeons_and_companions.opal_block": "Block of Opal",
+      "item.dungeons_and_companions.knubs": "Knubs Spawn Egg",
+      "item.dungeons_and_companions.mythril_armor_helmet": "Mythril Helmet",
+      "item.dungeons_and_companions.cheese": "Cheese",
+      "entity.dungeons_and_companions.companion_nolati": " Notali",
+      "block.dungeons_and_companions.hardened_wood": "Hardened Wood",
+      "item.dungeons_and_companions.diam_spearhead": "Diam Spearhead",
+      "item.dungeons_and_companions.shaftitem": "Shaft",
+      "item.dungeons_and_companions.duristeel_armor_helmet": "Duristeel Helmet",
+      "block.dungeons_and_companions.mythril_block": "Block of Mythril",
+      "item.dungeons_and_companions.calamite_armor_boots": "Calamite Boots",
+      "item.dungeons_and_companions.mythril_armor_chestplate": "Mythril Chestplate",
+      "item.dungeons_and_companions.iron_greataxe": "Iron Greataxe",
+      "item.dungeons_and_companions.onyx": "Onyx",
+      "item.dungeons_and_companions.duristeel_ingot": "Duristeel Ingot",
+      "item.dungeons_and_companions.duristeel_armor_leggings": "Duristeel Leggings",
+      "item.dungeons_and_companions.axe_token": "Axe Token",
+      "entity.dungeons_and_companions.companion_odarin": " Odarin",
+      "item.dungeons_and_companions.companion_ralf_spawn_egg": "Ralf Spawn Egg",
+      "item.dungeons_and_companions.mythril_armor_boots": "Mythril Boots",
+      "item.dungeons_and_companions.mage_token": "Mage Token",
+      "item.dungeons_and_companions.diamondgreataxe": "Diamond Greataxe",
+      "item.dungeons_and_companions.compositebow": "Composite Bow",
+      "item.dungeons_and_companions.toastedcheesesteaksandwich": "Toasted Cheese-Steak Sandwich",
+      "item.dungeons_and_companions.staff_fireball": "Staff Fireball",
+      "item.dungeons_and_companions.opal": "Opal",
+      "item.dungeons_and_companions.diam_g_axeblade": "Diam G Axeblade",
+      "item.dungeons_and_companions.jauxite_armor_boots": "Jauxite Boots",
+      "block.dungeons_and_companions.garnet_block": "Block of Garnet",
+      "item.dungeons_and_companions.iron_spear": "Iron Spear",
+      "entity.dungeons_and_companions.companion_ralf": "Ralf",
+      "item.dungeons_and_companions.companion_nolati_spawn_egg": " Notali Spawn Egg",
+      "item.dungeons_and_companions.mythril_armor_leggings": "Mythril Leggings",
+      "item.dungeons_and_companions.direwolf": "Direwolf Spawn Egg",
+      "item.dungeons_and_companions.duristeel_armor_chestplate": "Duristeel Chestplate",
+      "item.dungeons_and_companions.jauxite_ingot": "Jauxite Ingot",
+      "item.dungeons_and_companions.companion_ralf": "Ralf Spawn Egg",
+      "item.dungeons_and_companions.garnet": "Garnet",
+      "block.dungeons_and_companions.onyx_block": "Block of Onyx",
+      "item.dungeons_and_companions.jauxite_armor_chestplate": "Jauxite Chestplate",
+      "item.dungeons_and_companions.goldchain": "Goldchain",
+      "entity.dungeons_and_companions.knubs": "Knubs",
+      "block.dungeons_and_companions.onyx_ore": "Onyx Ore",
+      "item.dungeons_and_companions.duristeel_armor_boots": "Duristeel Boots",
+      "block.dungeons_and_companions.calamite_block": "Block of Calamite",
+      "item.dungeons_and_companions.calamite_armor_helmet": "Calamite Helmet",
+      "item.dungeons_and_companions.knubs_spawn_egg": "Knubs Spawn Egg",
+      "block.dungeons_and_companions.duristeel_block": "Block of Duristeel",
+      "item.dungeons_and_companions.toast": "Toast",
+      "block.dungeons_and_companions.jauxite_block": "Block of Jauxite",
+      "block.dungeons_and_companions.jauxite_ore": "Jauxite Ore",
+      "entity.dungeons_and_companions.direwolf": "Direwolf",
+      "item.dungeons_and_companions.direwolf_spawn_egg": "Direwolf Spawn Egg",
+      "block.dungeons_and_companions.duristeel_ore": "Duristeel Ore",
+      "item.dungeons_and_companions.companion_nolati": " Notali Spawn Egg",
+      "item.dungeons_and_companions.spark_bomb": "Spark Bomb",
+      "item.dungeons_and_companions.iron_spearhead": "Iron Spearhead",
+      "itemGroup.tabcreative_companion_modtab": "D\u0026C Mod",
+      "item.dungeons_and_companions.iron_g_axeblade": "Iron Axe Blade",
+      "block.dungeons_and_companions.companion_shine": "Companion Shine",
+      "item.dungeons_and_companions.mythril_ingot": "Mythril Ingot",
+      "item.dungeons_and_companions.gold_medallion_item": "Axe Medallion Item",
+      "item.dungeons_and_companions.woodsealant": "Epoxy",
+      "item.dungeons_and_companions.ranger_token": "Ranger Token",
+      "item.dungeons_and_companions.iron_shaft": "Iron Shaft",
+      "item.dungeons_and_companions.calamite_ingot": "Calamite Ingot"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "dungeons_and_companions",
+    "modName": "Dungeons and Companions",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.dungeonsandcompanions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000546519
+}

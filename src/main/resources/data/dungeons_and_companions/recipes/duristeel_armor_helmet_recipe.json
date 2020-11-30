@@ -1,0 +1,29 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "dungeons_and_companions:duristeel_ingot"
+    },
+    "1": {
+      "item": "dungeons_and_companions:duristeel_ingot"
+    },
+    "2": {
+      "item": "dungeons_and_companions:duristeel_ingot"
+    },
+    "3": {
+      "item": "dungeons_and_companions:duristeel_ingot"
+    },
+    "5": {
+      "item": "dungeons_and_companions:duristeel_ingot"
+    }
+  },
+  "result": {
+    "item": "dungeons_and_companions:duristeel_armor_helmet",
+    "count": 1
+  }
+}

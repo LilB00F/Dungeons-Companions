@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dungeons_and_companions:blocks/calamite_ore",
+    "up": "dungeons_and_companions:blocks/calamite_ore",
+    "north": "dungeons_and_companions:blocks/calamite_ore",
+    "east": "dungeons_and_companions:blocks/calamite_ore",
+    "south": "dungeons_and_companions:blocks/calamite_ore",
+    "west": "dungeons_and_companions:blocks/calamite_ore",
+    "particle": "dungeons_and_companions:blocks/calamite_ore"
+  }
+}

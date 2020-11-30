@@ -1,0 +1,26 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "dungeons_and_companions:calamite_ingot"
+    },
+    "2": {
+      "item": "dungeons_and_companions:calamite_ingot"
+    },
+    "3": {
+      "item": "dungeons_and_companions:calamite_ingot"
+    },
+    "5": {
+      "item": "dungeons_and_companions:calamite_ingot"
+    }
+  },
+  "result": {
+    "item": "dungeons_and_companions:calamite_armor_boots",
+    "count": 1
+  }
+}

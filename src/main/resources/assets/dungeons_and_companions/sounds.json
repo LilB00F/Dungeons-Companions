@@ -1,0 +1,47 @@
+{
+  "russianmalevoice": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "dungeons_and_companions:es_voice-clip-male-239-sfx-producer",
+        "stream": false
+      }
+    ]
+  },
+  "piratemale": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "dungeons_and_companions:es_voice-clip-male-521-sfx-producer",
+        "stream": false
+      }
+    ]
+  },
+  "female-hmm-sound": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "dungeons_and_companions:zapsplat_zapsplat_unprocessed_voice_female_hmm_001_25017",
+        "stream": false
+      }
+    ]
+  },
+  "burpsound": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "dungeons_and_companions:zapsplat_human_male_man_burp_short_weak_48653",
+        "stream": false
+      }
+    ]
+  },
+  "oldschool-oof": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "dungeons_and_companions:minecraft-oof",
+        "stream": false
+      }
+    ]
+  }
+}

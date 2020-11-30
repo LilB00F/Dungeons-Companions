@@ -1,0 +1,8 @@
+{
+  "parent": "dungeons_and_companions:custom/companionshrine",
+  "textures": {
+    "all": "dungeons_and_companions:blocks/companionshrinetexture",
+    "particle": "dungeons_and_companions:blocks/companionshrinetexture",
+    "0": "dungeons_and_companions:blocks/companionshrinetexture"
+  }
+}

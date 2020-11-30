@@ -1,0 +1,7 @@
+{
+  "parent": "dungeons_and_companions:custom/greataxemodel",
+  "textures": {
+    "1": "dungeons_and_companions:blocks/irongaxetexture",
+    "particle": "dungeons_and_companions:items/textureirongreataxe"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "duristeel_head",
+    "enableBody": true,
+    "textureBody": "duristeel_body",
+    "enableLeggings": true,
+    "textureLeggings": "duristeel_leggings",
+    "enableBoots": true,
+    "textureBoots": "duristeel_boots",
+    "creativeTab": {
+      "value": "CUSTOM:CreativeCompanionModtab"
+    },
+    "armorTextureFile": "duristeelhelmtex",
+    "helmetName": "Duristeel Helmet",
+    "bodyName": "Duristeel Chestplate",
+    "leggingsName": "Duristeel Leggings",
+    "bootsName": "Duristeel Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelDuristeelHelmetModel",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "ModelDuristeelModelRe3",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "duristeel_layer_1.png",
+    "leggingsModelName": "ModelDuristeelModelRe3",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "duristeel_layer_2.png",
+    "bootsModelName": "ModelDuristeelBootsModel",
+    "bootsModelPartL": "bootL",
+    "bootsModelPartR": "bootR",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 50,
+    "damageValueHelmet": 5,
+    "damageValueBody": 10,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 5,
+    "enchantability": 17,
+    "toughness": 3.5,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:DuristeelIngot"
+      }
+    ]
+  }
+}

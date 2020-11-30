@@ -1,0 +1,7 @@
+{
+  "parent": "dungeons_and_companions:custom/perfectspear",
+  "textures": {
+    "0": "dungeons_and_companions:blocks/ironspeartex",
+    "particle": "dungeons_and_companions:items/itemironspear"
+  }
+}

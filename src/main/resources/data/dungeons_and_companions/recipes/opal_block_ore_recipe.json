@@ -1,0 +1,13 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dungeons_and_companions:opal_block"
+    }
+  ],
+  "result": {
+    "item": "dungeons_and_companions:opal",
+    "count": 9
+  }
+}

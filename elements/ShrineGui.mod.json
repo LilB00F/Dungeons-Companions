@@ -1,0 +1,174 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 200,
+    "height": 225,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Notali-",
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "name": "Notali-",
+          "x": 123,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ralf-",
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "name": "Ralf-",
+          "x": 240,
+          "y": 39
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon Notali",
+          "onClick": {
+            "name": "NotaliSUMMONPro"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Summon Notali",
+          "x": 123,
+          "y": 16
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon Ralf",
+          "onClick": {
+            "name": "RalfSUMMONPro"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "Summon Ralf",
+          "x": 235,
+          "y": 15
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ranger",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Ranger",
+          "x": 159,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Warrior",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Warrior",
+          "x": 267,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Quick",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Quick",
+          "x": 159,
+          "y": 48
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Heavy",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Heavy",
+          "x": 267,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon Odarin",
+          "onClick": {
+            "name": "OdarinSUMMONPro"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Summon Odarin",
+          "x": 123,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Odarin-",
+          "color": {
+            "value": -7789186,
+            "falpha": 0.0
+          },
+          "name": "Odarin-",
+          "x": 123,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mage",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Mage",
+          "x": 161,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Smart",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Smart",
+          "x": 161,
+          "y": 95
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "dungeons_and_companions:iron_spearhead"
+    },
+    "4": {
+      "item": "dungeons_and_companions:shaftitem"
+    },
+    "6": {
+      "item": "dungeons_and_companions:shaftitem"
+    }
+  },
+  "result": {
+    "item": "dungeons_and_companions:iron_spear",
+    "count": 1
+  }
+}

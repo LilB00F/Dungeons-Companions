@@ -1,0 +1,13 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dungeons_and_companions:jauxite_block"
+    }
+  ],
+  "result": {
+    "item": "dungeons_and_companions:jauxite_ingot",
+    "count": 9
+  }
+}

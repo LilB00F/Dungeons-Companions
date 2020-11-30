@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dungeons_and_companions:blocks/opal_ore",
+    "up": "dungeons_and_companions:blocks/opal_ore",
+    "north": "dungeons_and_companions:blocks/opal_ore",
+    "east": "dungeons_and_companions:blocks/opal_ore",
+    "south": "dungeons_and_companions:blocks/opal_ore",
+    "west": "dungeons_and_companions:blocks/opal_ore",
+    "particle": "dungeons_and_companions:blocks/opal_ore"
+  }
+}

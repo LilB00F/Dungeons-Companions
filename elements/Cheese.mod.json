@@ -1,0 +1,23 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "texturecheese",
+    "customModelName": "Normal",
+    "name": "Cheese",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CreativeCompanionModtab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 6.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

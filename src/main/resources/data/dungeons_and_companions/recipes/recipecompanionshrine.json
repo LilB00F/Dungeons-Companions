@@ -1,0 +1,36 @@
+{
+  "group": "dungeons_and_companions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "dungeons_and_companions:gold_medallion_item"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "4": {
+      "item": "minecraft:gold_ingot"
+    },
+    "6": {
+      "item": "minecraft:gold_block"
+    },
+    "7": {
+      "item": "minecraft:lapis_block"
+    },
+    "8": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "dungeons_and_companions:companion_shine",
+    "count": 1
+  }
+}
